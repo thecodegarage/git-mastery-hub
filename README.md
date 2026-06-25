@@ -20,7 +20,7 @@ Each repository is **completely independent** on GitHub. Clone only what you nee
 
 | # | Topic | Repository | Difficulty |
 |---|-------|------------|------------|
-| 0 | **Git Basics & Daily Workflow** | [`git-practice-foundations`](https://github.com/TheCodeGarage/git-practice-foundations) | 🟢 Beginner |
+| 1 | **Git Basics & Daily Workflow** | [`git-practice-foundations`](https://github.com/TheCodeGarage/git-practice-foundations) | 🟢 Beginner |
 
 ```bash
 git clone https://github.com/TheCodeGarage/git-practice-foundations
@@ -34,11 +34,11 @@ git clone https://github.com/TheCodeGarage/git-practice-foundations
 
 | # | Topic | Repository | Difficulty |
 |---|-------|------------|------------|
-| 1 | **Merge Conflicts** | [`git-practice-merge-conflicts`](https://github.com/TheCodeGarage/git-practice-merge-conflicts) | 🟡 Intermediate |
-| 2 | **Rebasing** | [`git-practice-rebasing`](https://github.com/TheCodeGarage/git-practice-rebasing) | 🔴 Advanced |
-| 3 | **History Rewriting** | [`git-practice-history-rewriting`](https://github.com/TheCodeGarage/git-practice-history-rewriting) | 🔴 Advanced |
-| 4 | **Remote Workflows** | [`git-practice-remote-workflows`](https://github.com/TheCodeGarage/git-practice-remote-workflows) | 🟡 Intermediate |
-| 5 | **Recovery Operations** | [`git-practice-recovery-operations`](https://github.com/TheCodeGarage/git-practice-recovery-operations) | 🔴 Advanced |
+| 2 | **Merge Conflicts** | [`git-practice-merge-conflicts`](https://github.com/TheCodeGarage/git-practice-merge-conflicts) | 🟡 Intermediate |
+| 3 | **Rebasing** | [`git-practice-rebasing`](https://github.com/TheCodeGarage/git-practice-rebasing) | 🔴 Advanced |
+| 4 | **History Rewriting** | [`git-practice-history-rewriting`](https://github.com/TheCodeGarage/git-practice-history-rewriting) | 🔴 Advanced |
+| 5 | **Remote Workflows** | [`git-practice-remote-workflows`](https://github.com/TheCodeGarage/git-practice-remote-workflows) | 🟡 Intermediate |
+| 6 | **Recovery Operations** | [`git-practice-recovery-operations`](https://github.com/TheCodeGarage/git-practice-recovery-operations) | 🔴 Advanced |
 
 ```bash
 # Clone specific topics you struggle with
