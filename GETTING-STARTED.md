@@ -54,16 +54,16 @@ git config --global core.editor "code --wait"
 Ask yourself:
 
 **"What do I struggle with most?"**
-- Merge conflicts? → Start with Repository 1
-- Cleaning up messy history? → Start with Repository 2
-- Understanding push/pull? → Start with Repository 4
-- Recovering from mistakes? → Start with Repository 5
-- New to Git? → Start with Repository 6
+- Merge conflicts? → Start with Repository 2
+- Cleaning up messy history? → Start with Repository 3
+- Understanding push/pull? → Start with Repository 5
+- Recovering from mistakes? → Start with Repository 6
+- New to Git? → Start with Repository 1
 
-**"What's my experience level?"**
-- 🟢 Beginner: Repos 6, 7, 1, 4
-- 🟡 Intermediate: Repos 1, 4, 2, 3, 7
-- 🔴 Advanced: Repos 2, 3, 5, 8
+**"What's my experience level?"
+- 🟢 Beginner: Repos 1, 7, 2, 5
+- 🟡 Intermediate: Repos 2, 5, 3, 4, 8
+- 🔴 Advanced: Repos 3, 4, 6, 9
 
 ### Step 3: Clone All Repositories
 
@@ -74,12 +74,18 @@ Ask yourself:
 mkdir ~/git-mastery
 cd ~/git-mastery
 
-# Clone the repositories you want to practice with
-# Example: Clone hub, quiz, and merge conflicts practice
+# Clone all repositories
 git clone https://github.com/TheCodeGarage/git-mastery-00-hub
-git clone https://github.com/TheCodeGarage/git-mastery-quiz-game
+git clone https://github.com/TheCodeGarage/git-mastery-01-foundations
 git clone https://github.com/TheCodeGarage/git-mastery-02-merge-conflicts
-# ... clone others as needed
+git clone https://github.com/TheCodeGarage/git-mastery-03-rebasing
+git clone https://github.com/TheCodeGarage/git-mastery-04-history-rewriting
+git clone https://github.com/TheCodeGarage/git-mastery-05-remote-workflows
+git clone https://github.com/TheCodeGarage/git-mastery-06-recovery-operations
+git clone https://github.com/TheCodeGarage/git-mastery-07-branching-strategies
+git clone https://github.com/TheCodeGarage/git-mastery-08-stash-cherry-pick
+git clone https://github.com/TheCodeGarage/git-mastery-09-debugging-bisect
+git clone https://github.com/TheCodeGarage/git-mastery-quiz
 ```
 
 **Why this structure?**
@@ -112,7 +118,7 @@ Clone all repositories into a common parent folder:
 ```
 git-mastery/                           # Your parent folder
 ├── git-mastery-00-hub/               # This hub - main navigation
-├── git-mastery-quiz-game/            # Interactive quiz application
+├── git-mastery-quiz/                 # Interactive quiz application
 ├── git-mastery-01-foundations/       # Git basics practice
 ├── git-mastery-02-merge-conflicts/   # Merge conflict practice
 ├── git-mastery-03-rebasing/          # Rebasing practice
@@ -219,7 +225,7 @@ Compare your approach with the provided solution.
 After completing all exercises in a repository:
 
 ```bash
-cd ../git-mastery-quiz-game
+cd ../git-mastery-quiz
 npm install    # First time only
 npm run dev
 ```
@@ -441,10 +447,27 @@ Ready to start? Pick your path:
 Start here: [Foundations](../git-mastery-01-foundations/README.md) or [Branching Strategies](../git-mastery-07-branching-strategies/README.md)
 
 ### 🟡 Intermediate
-Start here: [Merge Conflicts](../git-mastery-02-merge-conflicts/README.md)
+Start here: [Merge Conflicts](../git-mastery-02-merge-conflicts/README.md) or [Remote Workflows](../git-mastery-05-remote-workflows/README.md)
 
 ### 🔴 Advanced
-Start here: [Rebasing](../git-mastery-03-rebasing/README.md) or [History Rewriting](../git-mastery-04-history-rewriting/README.md)
+Start here: [Rebasing](../git-mastery-03-rebasing/README.md), [History Rewriting](../git-mastery-04-history-rewriting/README.md), or [Recovery Operations](../git-mastery-06-recovery-operations/README.md)
+
+---
+
+## All Practice Repositories
+
+| Repository | Difficulty | Focus Area | Estimated Time |
+|-----------|-----------|-----------|----------------|
+| [01 - Foundations](../git-mastery-01-foundations/README.md) | 🟢 Beginner | Basic Git commands, commits, branches | 2-3 hours |
+| [02 - Merge Conflicts](../git-mastery-02-merge-conflicts/README.md) | 🟡 Intermediate | Resolving merge conflicts | 4-5 hours |
+| [03 - Rebasing](../git-mastery-03-rebasing/README.md) | 🔴 Advanced | Rebase operations, interactive rebase | 5-6 hours |
+| [04 - History Rewriting](../git-mastery-04-history-rewriting/README.md) | 🔴 Advanced | Amend, reset, revert, filter-branch | 6-7 hours |
+| [05 - Remote Workflows](../git-mastery-05-remote-workflows/README.md) | 🟡 Intermediate | Push, pull, fetch, remote branches | 4-5 hours |
+| [06 - Recovery Operations](../git-mastery-06-recovery-operations/README.md) | 🔴 Advanced | Reflog, fsck, data recovery | 6-8 hours |
+| [07 - Branching Strategies](../git-mastery-07-branching-strategies/README.md) | 🟢 Beginner | Feature branches, Git Flow, workflows | 3-4 hours |
+| [08 - Stash & Cherry-Pick](../git-mastery-08-stash-cherry-pick/README.md) | 🟡 Intermediate | Stashing changes, cherry-picking commits | 4-5 hours |
+| [09 - Debugging & Bisect](../git-mastery-09-debugging-bisect/README.md) | 🔴 Advanced | Git blame, bisect, debugging | 5-6 hours |
+| [Quiz Game](../git-mastery-quiz/README.md) | All Levels | Test your knowledge interactively | 30 min per topic |
 
 ### 🎯 Targeted Practice
 Jump to: [Choose from Main README](README.md#-practice-repositories)
